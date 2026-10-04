@@ -1,0 +1,8 @@
+# WorkBuddy workspace data
+.workbuddy/
+
+# OS junk
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
