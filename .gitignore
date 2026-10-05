@@ -1,8 +1,48 @@
-# WorkBuddy workspace data
+# ===== WorkBuddy 工作区数据（本地） =====
 .workbuddy/
 
-# OS junk
+# ===== Windows 系统垃圾 =====
 Thumbs.db
+ehthumbs.db
 Desktop.ini
-*.log
+$RECYCLE.BIN/
+*.lnk
+
+# ===== Office / WPS 临时文件 =====
+~$*
 *.tmp
+.~lock.*#
+
+# ===== IDE / 编辑器 =====
+.vscode/
+.idea/
+*.swp
+*~
+*.sublime-workspace
+*.sublime-project
+
+# ===== Node.js =====
+node_modules/
+dist/
+build/
+.cache/
+npm-debug.log*
+.eslintcache
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ===== 日志与备份 =====
+*.log
+*.bak
+*.orig
+
+# ===== 其他 =====
+.DS_Store
